@@ -3,7 +3,7 @@
 This is my another project where I deployed a Node.js application on an Amazon Linux EC2 server.
 In this project, I learned how Node.js works as its own server, so no external web server like NGINX or Apache is required. The application files (app.js and package.json) were provided by my mentor through a GitHub URL, and I deployed the project by cloning and running it on the server
 ## Architecture
-![alt text](<imgs/nodejs_architecture.jpeg>)
+![alt text](<images/nodejs_architecture.jpeg>)
 
 ## Technologies Used
 * Amazon Linux (EC2)<br>
