@@ -3,7 +3,7 @@
 This is my another project where I deployed a Node.js application on an Amazon Linux EC2 server.
 In this project, I learned how Node.js works as its own server, so no external web server like NGINX or Apache is required. The application files (app.js and package.json) were provided by my mentor through a GitHub URL, and I deployed the project by cloning and running it on the server
 ## Architecture
-![alt text](<images/nodejs_architecture.jpeg>)
+![alt text](<imgs/nodejs_architecture.jpeg>)
 
 ## Technologies Used
 * Amazon Linux (EC2)<br>
@@ -18,31 +18,31 @@ In this project, I learned how Node.js works as its own server, so no external w
 ## Setup & Deployment Steps
 ### 1.Launch EC2 instance
 * Create Amazon linux EC2 instance 
-![alt text](<imgs/creating ec2 instance.png>)
+![alt text](<imgs/creating_ec2_instance.png>)
 * Connect using SSH
-![alt text](<imgs/connect ec2 throgh ssh.png>)
+![alt text](<imgs/connect_ec2_throgh ssh.png>)
 ### 2.Install Git
 sudo yum update <br>
 sudo yum install git -y
-![alt text](<imgs/install nodejs and git.png>)
+![alt text](<imgs/install_nodejs_and_git.png>)
 ### 3.Clone Project from Github 
 git clone <my url here >
-![alt text](<imgs/clone project from github.png>)
+![alt text](<imgs/clone_project_from_github.png>)
 ### 4.Go Inside Project Folder
 cd nodejs.app
-![alt text](<imgs/go inside project folder.png>)
+![alt text](<imgs/go_inside_project_folder.png>)
 ### 5.Install Dependencies
 npm install
-![alt text](<imgs/installing dependencies.png>)
+![alt text](<imgs/installing_dependencies.png>)
 ### 6.Run Application 
 node app.js
-![alt text](<imgs/run application.png>)
+![alt text](<imgs/run_application.png>)
 ### 7.Access Application
 * open browser
 * Enter->
 your-ec2-public-ip:port
 * Application Will be Live 
-![alt text](<imgs/access website 2.png>)
+![alt text](<imgs/access_website 2.png>)
 ## What I Learned
 * Basics of Node.js
 * Running server using Node.js
